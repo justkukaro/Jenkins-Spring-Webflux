@@ -11,5 +11,11 @@ pipeline {
                 echo "Hello";
             }
         }
+
+        stage('gradle') {
+            steps {
+                sh 'gradle bootJar'
+            }
+        }
     }
 }
