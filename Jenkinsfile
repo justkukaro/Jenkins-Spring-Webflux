@@ -6,10 +6,6 @@ pipeline {
         gradle 'gradle2'
     }
 
-     environment {
-        JAVA_HOME = "tool jdk17"
-    }
-
     stages{
         stage('echo') {
             steps {
