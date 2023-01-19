@@ -1,6 +1,5 @@
 
 tools {
-    gradle 'gradle'
 }
 
 stages {
